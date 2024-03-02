@@ -16,7 +16,8 @@ public class EstudoJava {
         } else {
             System.out.println("Você tem " + idade + " anos e é menor de idade!");
         }
-
+        
+        input.close();
     }
 
 }
